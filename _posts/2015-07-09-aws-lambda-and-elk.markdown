@@ -39,7 +39,7 @@ You specify a `Log Group` to stream from and this input plugin will find and con
 will poll and look for streams with new records, and consume only the newest records.
 
 ### Try it yourself
-* Download the [latest release][latest] of the plugin.
+* Download the [latest release][releases] of the plugin.
 * Install by running `bin/plugin install <download path>/logstash-input-cloudwatch_logs-0.9.0.gem`
 
 ### Sample config
@@ -62,10 +62,11 @@ As we prepare to enter production on this new set of services, this should give 
 about how to properly size our Lambda functions, and also analyze any errors we encounter!
 
 ### Feedback
-How has this worked for you? Found a problem? Let me know and open an issue!
+How has this worked for you? Found a problem? Let me know and open an [issue][issues]!
 
 [intouch]:         http://www.intouchinsight.com
 [lambda]:          http://aws.amazon.com/lambda
 [cloudwatch_logs]: https://aws.amazon.com/blogs/aws/cloudwatch-log-service/
 [cwl_plugin]:      https://github.com/lukewaite/logstash-input-cloudwatch-logs
-[latest]:          https://github.com/lukewaite/logstash-input-cloudwatch-logs/releases
+[releases]:        https://github.com/lukewaite/logstash-input-cloudwatch-logs/releases
+[issues]:          https://github.com/lukewaite/logstash-input-cloudwatch-logs/issues
