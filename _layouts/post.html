@@ -13,3 +13,21 @@ layout: default
   </article>
 
 </div>
+
+<div id="page-navigation">
+  <div class="clear">&nbsp;</div>
+  <div class="left">
+    {% if page.previous.url %}
+    <a href="{{page.previous.url}}" title="Previous Post:
+{{page.previous.title}}">&laquo; Previous: {{page.previous.title}}</a>
+    {% endif %}
+  </div>
+
+  <div class="right">
+    {% if page.next.url %}
+    <a href="{{page.next.url}}" title="Next Post:
+{{page.next.title}}">Next: {{page.next.title}} &raquo; </a>
+    {% endif %}
+  </div>
+  <div class="clear">&nbsp;</div>
+</div>
