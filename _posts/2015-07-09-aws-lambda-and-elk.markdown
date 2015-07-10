@@ -7,7 +7,7 @@ categories: aws lambda elk logstash
 
 I've been using the ELK stack for over three years. It's a tool that is used daily at work, so it's little surprise that
 when [In-Touch Insight Systems][intouch] went down the [AWS Lambda][lambda] road for one of our newest projects, I wasn't happy
-with using the default [CloudWatch Logs][cloudwatch_logs]. 
+with using the default [CloudWatch Logs][cloudwatch_logs] UI. 
 
 {% include image.html url="/images/2015-07-09-lambda-elk/logs_output.png" description="CloudWatch Logs with Lambda Output" %}
 
