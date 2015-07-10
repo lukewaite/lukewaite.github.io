@@ -14,6 +14,8 @@ setup can run. To make matters worse, the default Ubuntu 14.04 AMI provided by A
 months old! YMMV but I experienced a 11 minute speedup simply in "time to `running_setup`" by introducing a simple 
 custom AMI.
 
+<!--more-->
+
 #### How do I get this? 
 * Start a new EC2 instance based on the must current Ubuntu 1404 AMI.
 * Run the following commands on the instance:

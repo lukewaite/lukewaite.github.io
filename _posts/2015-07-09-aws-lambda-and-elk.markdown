@@ -11,6 +11,8 @@ with using the default [CloudWatch Logs][cloudwatch_logs].
 
 {% include image.html url="/images/2015-07-09-lambda-elk/logs_output.png" description="CloudWatch Logs with Lambda Output" %}
 
+<!--more-->
+
 By default Lambda ships its logs to CloudWatch Logs. This is great, you can easily see what's going on during development
 and little work is needed to get up and running. There are a few methods we could have used to get logs to our ELK stack:
 
