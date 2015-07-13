@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "AWS Lambda and ELK"
-date:   2015-07-09 19:38:35
+date:   2015-07-13 14:21:00
 categories: aws lambda elk logstash
 ---
 
