@@ -18,7 +18,7 @@ Initially the plugin has been built for Laravel 5.1, since we use the LTS releas
 quite possibly could already be working, but I need to review what has changed in the underlying queue classes before
 making that promise.
 
-If you review the [implementation][batch-queue], you'll see that I based my work off the `DatabaseQueue`
+If you review the [implementation][batch_queue], you'll see that I based my work off the `DatabaseQueue`
 class, as we need a place to store jobs before batch can process them. Serializing the entire job payload and passing that
 as a string through the job submission to batch seemed like it could be error prone, to say the least.
 
