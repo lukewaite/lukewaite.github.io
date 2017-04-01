@@ -27,7 +27,7 @@ Tests are needed, and will be coming. I'd love to hear feedback, or receive pull
 ### Feedback
 How has this worked for you? Found a problem? Let me know and open an [issue][issues]!
 
-[intouch]:         http://www.intouchinsight.com
+[intouch]:         https://www.intouchinsight.com
 [batch]:           https://aws.amazon.com/batch/
 [batch_queue]:     https://github.com/lukewaite/laravel-queue-aws-batch
 [packagist]:       https://packagist.org/packages/lukewaite/laravel-queue-aws-batch
