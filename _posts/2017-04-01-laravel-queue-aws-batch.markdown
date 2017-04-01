@@ -29,6 +29,6 @@ How has this worked for you? Found a problem? Let me know and open an [issue][is
 
 [intouch]:         http://www.intouchinsight.com
 [batch]:           https://aws.amazon.com/batch/
-[batch_queue]:     https://github.com/lukewaite/lukewaite.github.io
+[batch_queue]:     https://github.com/lukewaite/laravel-queue-aws-batch
 [packagist]:       https://packagist.org/packages/lukewaite/laravel-queue-aws-batch
-[issues]:          https://github.com/lukewaite/logstash-input-cloudwatch-logs/issues
+[issues]:          https://github.com/lukewaite/laravel-queue-aws-batch/issues
