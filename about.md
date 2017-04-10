@@ -10,4 +10,5 @@ I'm a been a computer guy all my life, teaching myself how to program by working
 were available during grade school.
 
 These days my interest is less MUDs, more automation and infrastructure. I have a professional background in Software
-QA, and these days I find myself wearing the DevOps hat.
+QA, DevOps, and Reliability Engineering.
+
