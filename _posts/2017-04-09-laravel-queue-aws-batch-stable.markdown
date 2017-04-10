@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "AWS Batch as a Laravel Queue - Stable Release"
-date:   2017-04-01 11:50:00
+date:   2017-04-09 20:47:00
 categories: aws laravel batch queue
 ---
 
