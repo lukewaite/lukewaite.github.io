@@ -3,6 +3,7 @@ layout: post
 title:  "GitLab, NPM, and SSHd MaxStartups"
 date:   2015-08-17 21:45:00
 categories: gitlab npm ssh
+permalink: :categories/:year/:month/:day/:title.html
 ---
 
 Intermittent issues are every developer's best friend. Recently we started hitting an error during the `npm install` 

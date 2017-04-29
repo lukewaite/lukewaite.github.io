@@ -4,8 +4,16 @@ title: Projects
 permalink: /projects/
 ---
 
-I have had the pleasure of open sourcing two pacakges which I found myself
+I have had the pleasure of open sourcing three pacakges which I found myself
 writing and discovered there might be a wider audience for.
+
+### Logstash Input for CloudWatch Logs
+[![Gem][ico-logstash-input-cwl-version]][link-logstash-input-cwl-rubygems]
+[![Downloads][ico-logstash-input-cwl-downloads]][link-logstash-input-cwl-rubygems]
+[![Software License][ico-logstash-input-cwl-license]][link-logstash-input-cwl-license]
+[![Build Status][ico-logstash-input-cwl-travis]][link-logstash-input-cwl-travis]
+* [GitHub](https://github.com/lukewaite/logstash-input-cloudwatch-logs/)
+* [RubyGems](https://rubygems.org/gems/logstash-input-cloudwatch_logs/)
 
 ### Laravel Queue Connector for AWS Batch
 [![Latest Version on Packagist][ico-laravel-queue-batch-version]][link-laravel-queue-batch-packagist]
@@ -15,14 +23,13 @@ writing and discovered there might be a wider audience for.
 * [GitHub](https://github.com/lukewaite/laravel-queue-aws-batch/)
 * [Packagist](https://packagist.org/packages/lukewaite/laravel-queue-aws-batch)
 
-
-### Logstash Input for CloudWatch Logs
-[![Gem][ico-logstash-input-cwl-version]][link-logstash-input-cwl-rubygems]
-[![Downloads][ico-logstash-input-cwl-downloads]][link-logstash-input-cwl-rubygems]
-[![Software License][ico-logstash-input-cwl-license]][link-logstash-input-cwl-license]
-[![Build Status][ico-logstash-input-cwl-travis]][link-logstash-input-cwl-travis]
-* [GitHub](https://github.com/lukewaite/logstash-input-cloudwatch-logs/)
-* [RubyGems](https://rubygems.org/gems/logstash-input-cloudwatch_logs/)
+### Laravel AWS CacheInterface for Credential Caching
+[![Latest Version on Packagist][ico-laravel-aws-cache-version]][link-laravel-aws-cache-packagist]
+[![Software License][ico-laravel-aws-cache-license]][link-laravel-aws-cache-license]
+[![Build Status][ico-laravel-aws-cache-travis]][link-laravel-aws-cache-travis]
+[![Code Coverage][ico-laravel-aws-cache-coverage]][link-laravel-aws-cache-coverage]
+* [GitHub](https://github.com/lukewaite/laravel-aws-cache-adapter/)
+* [Packagist](https://packagist.org/packages/lukewaite/laravel-aws-cache-adapter)
 
 [ico-logstash-input-cwl-version]: https://img.shields.io/gem/v/logstash-input-cloudwatch_logs.svg?style=flat-square
 [ico-logstash-input-cwl-downloads]: https://img.shields.io/gem/dt/logstash-input-cloudwatch_logs.svg?style=flat-square
@@ -42,3 +49,13 @@ writing and discovered there might be a wider audience for.
 [link-laravel-queue-batch-travis]: https://travis-ci.org/lukewaite/laravel-queue-aws-batch
 [link-laravel-queue-batch-coverage]: https://scrutinizer-ci.com/g/lukewaite/laravel-queue-aws-batch/?branch=master
 [link-laravel-queue-batch-license]: https://github.com/lukewaite/laravel-queue-aws-batch/blob/master/LICENSE
+
+[ico-laravel-aws-cache-version]: https://img.shields.io/packagist/v/lukewaite/laravel-aws-cache-adapter.svg?style=flat-square
+[ico-laravel-aws-cache-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
+[ico-laravel-aws-cache-travis]: https://img.shields.io/travis/lukewaite/laravel-aws-cache-adapter/master.svg?style=flat-square
+[ico-laravel-aws-cache-coverage]: https://img.shields.io/scrutinizer/coverage/g/lukewaite/laravel-aws-cache-adapter/master.svg?style=flat-square
+
+[link-laravel-aws-cache-packagist]: https://packagist.org/packages/lukewaite/laravel-aws-cache-adapter
+[link-laravel-aws-cache-travis]: https://travis-ci.org/lukewaite/laravel-aws-cache-adapter
+[link-laravel-aws-cache-coverage]: https://scrutinizer-ci.com/g/lukewaite/laravel-aws-cache-adapter/?branch=master
+[link-laravel-aws-cache-license]: https://github.com/lukewaite/laravel-aws-cache-adapter/blob/master/LICENSE

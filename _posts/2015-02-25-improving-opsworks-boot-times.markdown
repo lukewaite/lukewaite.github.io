@@ -3,6 +3,7 @@ layout: post
 title:  "Improving OpsWorks Boot Times"
 date:   2015-02-25 12:15:00
 categories: aws opsworks
+permalink: :categories/:year/:month/:day/:title.html
 ---
 
 #### The Problem

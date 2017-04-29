@@ -3,6 +3,7 @@ layout: post
 title:  "AWS Lambda and ELK"
 date:   2015-07-13 14:21:00
 categories: aws lambda elk logstash
+permalink: :categories/:year/:month/:day/:title.html
 ---
 
 I've been using the ELK stack for over three years. It's a tool that is used daily at work, so it's little surprise that

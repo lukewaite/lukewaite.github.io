@@ -3,6 +3,7 @@ layout: post
 title:  "AWS Batch as a Laravel Queue"
 date:   2017-04-01 11:50:00
 categories: aws laravel batch queue
+permalink: :categories/:year/:month/:day/:title.html
 ---
 
 We use Laravel for all of our APIs at [Intouch Insight][intouch], so when [AWS Batch][batch] was released, I started

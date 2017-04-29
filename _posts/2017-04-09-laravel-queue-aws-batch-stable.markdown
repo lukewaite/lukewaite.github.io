@@ -3,6 +3,7 @@ layout: post
 title:  "AWS Batch as a Laravel Queue - Stable Release"
 date:   2017-04-09 20:47:00
 categories: aws laravel batch queue
+permalink: :categories/:year/:month/:day/:title.html
 ---
 
 Following up my [previous post]({{ site.baseurl }}{% post_url 2017-04-01-laravel-queue-aws-batch %}) about the release of my [laravel-queue-aws-batch][batch_queue] plugin, I am pleased
