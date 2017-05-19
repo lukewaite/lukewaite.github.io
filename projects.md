@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 ---
 
-I have had the pleasure of open sourcing three pacakges which I found myself
+I have had the pleasure of open sourcing four pacakges which I found myself
 writing and discovered there might be a wider audience for.
 
 ### Logstash Input for CloudWatch Logs
@@ -30,6 +30,18 @@ writing and discovered there might be a wider audience for.
 [![Code Coverage][ico-laravel-aws-cache-coverage]][link-laravel-aws-cache-coverage]
 * [GitHub](https://github.com/lukewaite/laravel-aws-cache-adapter/)
 * [Packagist](https://packagist.org/packages/lukewaite/laravel-aws-cache-adapter)
+
+### Laravel Notification Channel for PagerDuty
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/laravel-notification-channels/pagerduty.svg?style=flat-square)](https://packagist.org/packages/laravel-notification-channels/pagerduty)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://github.com/laravel-notification-channels/pagerduty/blob/master/LICENSE.md)
+[![Build Status](https://img.shields.io/travis/laravel-notification-channels/pagerduty/master.svg?style=flat-square)](https://travis-ci.org/laravel-notification-channels/pagerduty)
+[![StyleCI](https://styleci.io/repos/90993408/shield)](https://styleci.io/repos/90993408)
+[![SensioLabsInsight](https://img.shields.io/sensiolabs/i/320fd214-7e74-4f71-ab10-f3f979e01a10.svg?style=flat-square)](https://insight.sensiolabs.com/projects/320fd214-7e74-4f71-ab10-f3f979e01a10)
+[![Quality Score](https://img.shields.io/scrutinizer/g/laravel-notification-channels/pagerduty.svg?style=flat-square)](https://scrutinizer-ci.com/g/laravel-notification-channels/pagerduty)
+[![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/laravel-notification-channels/pagerduty/master.svg?style=flat-square)](https://scrutinizer-ci.com/g/laravel-notification-channels/pagerduty/?branch=master)
+[![Total Downloads](https://img.shields.io/packagist/dt/laravel-notification-channels/pagerduty.svg?style=flat-square)](https://packagist.org/packages/laravel-notification-channels/pagerduty)
+* [GitHub](https://github.com/laravel-notification-channels/pagerduty/)
+* [Packagist](https://packagist.org/packages/laravel-notification-channels/pagerduty)
 
 [ico-logstash-input-cwl-version]: https://img.shields.io/gem/v/logstash-input-cloudwatch_logs.svg?style=flat-square
 [ico-logstash-input-cwl-downloads]: https://img.shields.io/gem/dt/logstash-input-cloudwatch_logs.svg?style=flat-square
@@ -59,3 +71,13 @@ writing and discovered there might be a wider audience for.
 [link-laravel-aws-cache-travis]: https://travis-ci.org/lukewaite/laravel-aws-cache-adapter
 [link-laravel-aws-cache-coverage]: https://scrutinizer-ci.com/g/lukewaite/laravel-aws-cache-adapter/?branch=master
 [link-laravel-aws-cache-license]: https://github.com/lukewaite/laravel-aws-cache-adapter/blob/master/LICENSE
+
+[ico-laravel-notification-channel-pagerduty-version]: https://img.shields.io/packagist/v/laravel-notification-channels/pagerduty.svg?style=flat-square
+[ico-laravel-notification-channel-pagerduty-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
+[ico-laravel-notification-channel-pagerduty-travis]: https://img.shields.io/travis/laravel-notification-channels/pagerduty/master.svg?style=flat-square
+[ico-laravel-notification-channel-pagerduty-coverage]: https://img.shields.io/scrutinizer/coverage/g/laravel-notification-channels/pagerduty/master.svg?style=flat-square
+
+[link-laravel-notification-channel-pagerduty-packagist]: https://packagist.org/packages/laravel-notification-channels/pagerduty
+[link-laravel-notification-channel-pagerduty-travis]: https://travis-ci.org/laravel-notification-channels/pagerduty
+[link-laravel-notification-channel-pagerduty-coverage]: https://scrutinizer-ci.com/g/laravel-notification-channels/pagerduty/?branch=master
+[link-laravel-notification-channel-pagerduty-license]: https://github.com/laravel-notification-channels/pagerduty/blob/master/LICENSE.md
