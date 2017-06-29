@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/lwaite
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://lukewaite.ca
+  * I am lwaite (https://keybase.io/lwaite) on keybase.
+  * I have a public key ASAiTYGukqZ1V-a2JhulzmN3LqubyABgx0l_HvgOYbJ31Ao
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120224d81ae92a67557e6b6261ba5ce63772eab9bc80060c7497f1ef80e61b277d40a",
+            "host": "keybase.io",
+            "kid": "0120224d81ae92a67557e6b6261ba5ce63772eab9bc80060c7497f1ef80e61b277d40a",
+            "uid": "59d58ac0b42e86ca171a22bec29cca19",
+            "username": "lwaite"
+        },
+        "merkle_root": {
+            "ctime": 1498701944,
+            "hash": "f6d22923a5425ca2ff51019d31d3d17270963aa5012d941754e61f865e4955388569c200c356de1a37e12e6a0600a869aa158625c8b412fe65296de152128f46",
+            "hash_meta": "0e937097259a34cda39eb258d5ff426ff0a1514f7769d93de749c416cb55ef16",
+            "seqno": 1199818
+        },
+        "service": {
+            "hostname": "lukewaite.ca",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.24"
+    },
+    "ctime": 1498702052,
+    "expire_in": 504576000,
+    "prev": "ac6a20a3ea07e5138c45e4182c6c612632e34dd3f1d2d74bc2e56fed266a18df",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgIk2BrpKmdVfmtiYbpc5jdy6rm8gAYMdJfx74DmGyd9QKp3BheWxvYWTFA0J7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwMjI0ZDgxYWU5MmE2NzU1N2U2YjYyNjFiYTVjZTYzNzcyZWFiOWJjODAwNjBjNzQ5N2YxZWY4MGU2MWIyNzdkNDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwMjI0ZDgxYWU5MmE2NzU1N2U2YjYyNjFiYTVjZTYzNzcyZWFiOWJjODAwNjBjNzQ5N2YxZWY4MGU2MWIyNzdkNDBhIiwidWlkIjoiNTlkNThhYzBiNDJlODZjYTE3MWEyMmJlYzI5Y2NhMTkiLCJ1c2VybmFtZSI6Imx3YWl0ZSJ9LCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ5ODcwMTk0NCwiaGFzaCI6ImY2ZDIyOTIzYTU0MjVjYTJmZjUxMDE5ZDMxZDNkMTcyNzA5NjNhYTUwMTJkOTQxNzU0ZTYxZjg2NWU0OTU1Mzg4NTY5YzIwMGMzNTZkZTFhMzdlMTJlNmEwNjAwYTg2OWFhMTU4NjI1YzhiNDEyZmU2NTI5NmRlMTUyMTI4ZjQ2IiwiaGFzaF9tZXRhIjoiMGU5MzcwOTcyNTlhMzRjZGEzOWViMjU4ZDVmZjQyNmZmMGExNTE0Zjc3NjlkOTNkZTc0OWM0MTZjYjU1ZWYxNiIsInNlcW5vIjoxMTk5ODE4fSwic2VydmljZSI6eyJob3N0bmFtZSI6Imx1a2V3YWl0ZS5jYSIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjI0In0sImN0aW1lIjoxNDk4NzAyMDUyLCJleHBpcmVfaW4iOjUwNDU3NjAwMCwicHJldiI6ImFjNmEyMGEzZWEwN2U1MTM4YzQ1ZTQxODJjNmM2MTI2MzJlMzRkZDNmMWQyZDc0YmMyZTU2ZmVkMjY2YTE4ZGYiLCJzZXFubyI6OCwidGFnIjoic2lnbmF0dXJlIn2jc2lnxEA/U8qlak2ODb/eIs5FJ28vb+aQHDpmcNQOeem+MAfXtrubl1zSb5LYsoEksIwT1URZGvBdqeNpagJZZgcy2UIJqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgRTVuibLKUV7HrOOfBUrQGeVLdkST6G6qh/Pu5elwEZ+jdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/lwaite
+
+==================================================================
