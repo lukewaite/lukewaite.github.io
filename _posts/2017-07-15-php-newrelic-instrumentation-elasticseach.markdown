@@ -19,7 +19,7 @@ I've written a [RingPHP Guzzle Adapter][ringphp_guzzle] which the user can
 $guzzle = new GuzzleHttp\Client();
 $guzzleHandler  = new LukeWaite\RingPhpGuzzleHandler\GuzzleHandler($guzzle);
 
-$client = ClientBuilder::create()
+$client = Elasticsearch\ClientBuilder::create()
             ->setHandler($guzzleHandler)
             ->build();
 {% endhighlight %}
