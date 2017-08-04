@@ -28,7 +28,7 @@ in multiple folders.
 
 Both of the above questions can be answered relatively easily by using the
 [`--query` parameter of the aws cli][query]{:target="_blank"}. You can pass to `--query` any
-[JMESPath][jmespath] query.
+[JMESPath][jmespath]{:target="_blank"} query.
 
 #### Find file by partial name
 
