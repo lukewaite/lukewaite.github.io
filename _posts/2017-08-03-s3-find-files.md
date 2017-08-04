@@ -105,7 +105,7 @@ eventually become part of the official spec.
 ### Caveats
 When you use the `--query` option, it's all done as post-processing, on your
 local system. Nothing is done remotely by s3, it's essentially the same as
-piping the output to `jq`, `jm` or another filtering program. This means if
+piping the output to `jq`, [`jp`][jp]{:target="_blank"} or another filtering program. This means if
 you have many 100s of thousands, or millions of objects, or a slow connection
 it will not be a fast process.
 
@@ -114,3 +114,4 @@ it will not be a fast process.
 [jmespath]: http://jmespath.org/
 [date-issue]: https://github.com/jmespath/jmespath.py/issues/124
 [date-fix]: https://github.com/jamesls/jmespath/commit/b893fc2bdd52fdd227a8cec3b7a26574de813e67
+[jp]: https://github.com/jmespath/jp
