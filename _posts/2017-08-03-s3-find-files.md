@@ -16,7 +16,7 @@ I hit this in production today, which is the motive of the blog post. The
 next question is what I thought might be a useful example, when I wanted
 to extrapolate what I'd learned to other use cases.
 
-> How do you find the created on specific dates, regardless of prefix?
+> How do you find files modified on specific dates, regardless of prefix?
 
 <!--more-->
 
@@ -86,7 +86,7 @@ files! Here's our problem.
 $ aws s3api list-objects --bucket <bucket name> --query "Contents[?contains(LastModified) > '2017-08-03')]"
 {% endhighlight %}
 
-#### Find files modified between a given time
+#### Find files modified between given times
 {% highlight bash %}
 $ aws s3api list-objects --bucket <bucket name> --query "Contents[?LastModified > '2017-08-03T23' && LastModified < '2017-08-03T23:15']"
 {% endhighlight %}
