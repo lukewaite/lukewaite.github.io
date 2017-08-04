@@ -7,8 +7,8 @@ permalink: :categories/:year/:month/:day/:title.html
 ---
 
 I've been using the ELK stack for over three years. It's a tool that is used daily at work, so it's little surprise that
-when [In-Touch Insight Systems][intouch] went down the [AWS Lambda][lambda] road for one of our newest projects, I wasn't happy
-using the default [CloudWatch Logs][cloudwatch_logs] UI. 
+when [In-Touch Insight Systems][intouch]{:target="_blank"} went down the [AWS Lambda][lambda]{:target="_blank"} road for one of our newest projects, I wasn't happy
+using the default [CloudWatch Logs][cloudwatch_logs]{:target="_blank"} UI.
 
 {% include image.html url="/images/2015-07-09-lambda-elk/logs_output.png" description="CloudWatch Logs with Lambda Output" %}
 
@@ -32,16 +32,25 @@ There's no way you can get information this accurate by running your own timers 
 wanted to get it!
 
 ## logstash-input-cloudwatch-logs
-I've just released the first beta version of [logstash-input-cloudwatch-logs][cwl_plugin]. Initial design has focused
-heavily on the Lambda -> CloudWatch Logs -> ELK use case. 
+I've just released the first beta version of [logstash-input-cloudwatch-logs][cwl_plugin]{:target="_blank"}. Initial design has focused
+heavily on the Lambda -> CloudWatch Logs -> ELK use case.
+
+**Update 2017-08-04: A stable release is now available.**
 
 ### How it works
 You specify a `Log Group` to stream from and this input plugin will find and consume all `Log Streams` within. The plugin
 will poll and look for streams with new records, and consume only the newest records.
 
+**Update 2017-08-04: You may want to see the [plugin documentation itself][cwl_plugin]{:target="_blank"}. The 1.0 release
+introduced more configuration options, including the ability to poll multiple log groups with a single input, or poll
+by a known prefix.**
+
 ### Try it yourself
-* Download the [latest release][releases] of the plugin.
-* Install by running `bin/plugin install <download path>/logstash-input-cloudwatch_logs-0.9.0.gem`
+* ~~Download the [latest release][releases] of the plugin.~~
+* ~~Install by running `bin/plugin install <download path>/logstash-input-cloudwatch_logs-0.9.0.gem`~~
+* Install the plugin from rubygems: `bin/logstash-plugin install logstash-input-cloudwatch_logs`
+
+For further information, see the [Logstash Documentation on Installing Plugins][plugin-install]{:target="_blank"}
 
 ### Sample config
 {% gist lukewaite/938cca0a306db3c9eabe %}
@@ -63,7 +72,7 @@ As we prepare to enter production on this new set of services, this should give 
 about how to properly size our Lambda functions, and also analyze any errors we encounter!
 
 ### Feedback
-How has this worked for you? Found a problem? Let me know and open an [issue][issues]!
+How has this worked for you? Found a problem? Let me know and open an [issue][issues]{:target="_blank"}!
 
 [intouch]:         http://www.intouchinsight.com
 [lambda]:          http://aws.amazon.com/lambda
@@ -71,3 +80,4 @@ How has this worked for you? Found a problem? Let me know and open an [issue][is
 [cwl_plugin]:      https://github.com/lukewaite/logstash-input-cloudwatch-logs
 [releases]:        https://github.com/lukewaite/logstash-input-cloudwatch-logs/releases
 [issues]:          https://github.com/lukewaite/logstash-input-cloudwatch-logs/issues
+[plugin-install]:  https://www.elastic.co/guide/en/logstash/current/working-with-plugins.html#installing-plugins
