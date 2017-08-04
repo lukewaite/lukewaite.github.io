@@ -21,13 +21,13 @@ to extrapolate what I'd learned to other use cases.
 <!--more-->
 
 Typically, this is when things start to get difficult. As a starting point,
-I use [Transmit][transmit] - it's a fantastic tool. However, it starts to fall
+I use [Transmit][transmit]{:target="_blank"} - it's a fantastic tool. However, it starts to fall
 down when you need to either deal with "folders" that contain many tens of
 thousands of documents, or when you need to look for things that could be
 in multiple folders.
 
 Both of the above questions can be answered relatively easily by using the
-[`--query` parameter of the aws cli][query]. You can pass to `--query` any
+[`--query` parameter of the aws cli][query]{:target="_blank"}. You can pass to `--query` any
 [JMESPath][jmespath] query.
 
 #### Find file by partial name
@@ -93,9 +93,9 @@ $ aws s3api list-objects --bucket <bucket name> --query "Contents[?LastModified 
 
 Technically, the ability to perform a comparison on a date is not part of
 the official spec for JMESPath, but I found a GitHub issue which describes
-that [many users rely on the ability to do just this][date-issue].
+that [many users rely on the ability to do just this][date-issue]{:target="_blank"}.
 
-That issue was closed by [this commit][date-fix] which mentions that it
+That issue was closed by [this commit][date-fix]{:target="_blank"} which mentions that it
 will be added explicitly to the spec:
 
 > The spec doesn't officially support string types yet, but enough people
