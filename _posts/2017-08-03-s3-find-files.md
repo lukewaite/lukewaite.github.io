@@ -102,6 +102,12 @@ will be added explicitly to the spec:
 are relying on this behavior that it's been added back.  This should
 eventually become part of the official spec.
 
+### Caveats
+When you use the `--query` option, it's all done as post-processing, on your
+local system. Nothing is done remotely by s3, it's essentially the same as
+piping the output to `jq`, `jm` or another filtering program. This means if
+you have many 100s of thousands, or millions of objects, or a slow connection
+it will not be a fast process.
 
 [transmit]: https://www.panic.com/transmit/
 [query]: http://docs.aws.amazon.com/cli/latest/reference/index.html#options
