@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Larvel Caching for AWS Credentials"
+title:  "Laravel Caching for AWS Credentials"
 date:   2017-04-29 16:00:00
 categories: aws laravel iam
+permalink: posts/2017/04/29/laravel-aws-cache-adapter.html
 ---
 
 We've seen occasionally poor performance on the AWS EC2 Metadata API when using IAM roles at [Intouch][intouch] which got
