@@ -53,7 +53,48 @@ by a known prefix.**
 For further information, see the [Logstash Documentation on Installing Plugins][plugin-install]{:target="_blank"}
 
 ### Sample config
-{% gist lukewaite/938cca0a306db3c9eabe %}
+{% highlight conf linenos %}
+input {
+    cloudwatch_logs {
+        log_group => "/aws/lambda/my-lambda"
+        access_key_id => "AKIAXXXXXX"
+        secret_access_key => "SECRET"
+        type => "lambda"
+    }
+}
+
+filter {
+    grok {
+        match => { "message" => "%{TIMESTAMP_ISO8601}\t%{UUID:[lambda][request_id]}\t%{GREEDYDATA:message}" }
+        overwrite => [ "message" ]
+        tag_on_failure => []
+    }
+
+    grok {
+        match => { "message" => "(?:START|END) RequestId: %{UUID:[lambda][request_id]}" }
+        tag_on_failure => []
+    }
+
+    grok {
+        match => { "message" => "REPORT RequestId: %{UUID:[lambda][request_id]}\tDuration: %{BASE16FLOAT:[lambda][duration]} ms\tBilled Duration: %{BASE16FLOAT:[lambda][billed_duration]} ms \tMemory Size: %{BASE10NUM:[lambda][memory_size]} MB\tMax Memory Used: %{BASE10NUM:[lambda][memory_used]} MB" }
+        tag_on_failure => []
+    }
+
+    mutate {
+        convert => {
+            "[lambda][duration]" => "integer"
+            "[lambda][billed_duration]" => "integer"
+            "[lambda][memory_size]" => "integer"
+            "[lambda][memory_used]" => "integer"
+        }
+    }
+
+}
+
+output {
+    stdout { codec => rubydebug }
+}
+{% endhighlight %}
 
 We install three grok filters on our log entries. First we match the generic log message, which is what appears in the
 stream if you `console.log` something. We strip the timestamp, and pull out the `[lambda][request_id]` field for indexing.
