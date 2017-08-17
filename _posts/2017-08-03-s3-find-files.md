@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Finding Files in S3"
+title:  "Finding Files in S3 (without a known prefix)"
 date:   2017-08-03 21:00:00
 categories: aws s3 search
 ---
