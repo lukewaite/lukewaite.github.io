@@ -38,7 +38,7 @@ Not a big problem, but the jobs needed to be retried.
 A colleague watching me do it, informed me that last time they did something like this
 (I sincerely hope it wasn't 2500 failed jobs) they typed all the numbers in manually!
 
-## So, down to the point, the oneliner:
+## So, down to the point, the one-liner:
 
 {% highlight shell %}
 $ php artisan queue:retry $(php artisan queue:failed | grep 2017-08-17 | awk '{print $2}')
