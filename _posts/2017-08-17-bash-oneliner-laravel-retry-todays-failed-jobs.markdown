@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Bash Oneliner: Retry Laravel Failed Jobs, Filtered by Date"
+title:  "Bash One-Liner: Retry Laravel Failed Jobs, Filtered by Date"
 date:   2017-08-17 22:00:00
-categories: bash-oneliner laravel queue retry
+categories: bash-one-liner laravel queue retry
 ---
 
 We all have those moments when Queue jobs fail. Sometimes it's a bad deploy,
