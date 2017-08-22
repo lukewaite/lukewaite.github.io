@@ -4,6 +4,7 @@ title:  "PHPStorm Tips - Go to Implementation"
 date:   2017-08-21 22:00:00
 categories: phpstorm tip laravel ide
 ---
+{% include youtube.html video="C0ZExLjMawo" style="float:right" %}
 
 Laravel is a great framework; it's easy to use and extend, and makes liberal
 use of Interfaces so that you can write your own implementations and provide
@@ -21,8 +22,6 @@ you've got a reference to.
 
 <!--more-->
 
+## Sample: Filesystem::put()
+
 {% include image.html url="/images/2017-08-21-phpstorm-go-to-implementation/go-to-implementation-filesystem.php.png" description="Go to Implementation - Filesystem.php" %}
-
-### Video Demo
-
-{% include youtube.html video="C0ZExLjMawo" %}
