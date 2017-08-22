@@ -45,7 +45,16 @@ img {
     vertical-align: middle;
 }
 
+/**
+ * Videos
+ */
 
+.video-container {
+    position: relative;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
 
 /**
  * Figures
