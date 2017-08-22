@@ -22,6 +22,10 @@ you've got a reference to.
 
 <!--more-->
 
-## Sample: Filesystem::put()
+## Sample
+
+The following screenshot shows the utility, of being able to drill down past
+the `AdapterInterface` into a specific implementation of `write` inside of
+the `Filesystem::put()` method.
 
 {% include image.html url="/images/2017-08-21-phpstorm-go-to-implementation/go-to-implementation-filesystem.php.png" description="Go to Implementation - Filesystem.php" %}
