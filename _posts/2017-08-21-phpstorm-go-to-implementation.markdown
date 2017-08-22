@@ -24,7 +24,7 @@ you've got a reference to.
 
 ## Sample
 
-The following screenshot shows the utility, of being able to drill down past
+The following screenshot shows the utility of being able to drill down past
 the `AdapterInterface` into a specific implementation of `write` inside of
 the `Filesystem::put()` method.
 
