@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "PHPStorm Tips - Go to Implementation"
-date:   2017-08-17 22:00:00
+date:   2017-08-21 22:00:00
 categories: phpstorm tip laravel ide
 ---
 
@@ -18,6 +18,8 @@ Allow me to introduce you to `Go to Implementation (CMD-OPT-B)` in PHPStorm -
 just one additional key press away from the most commonly used `Go to Declaration (CMD-B)`
 It'll allow you to select a specific implementation of whatever abstract method
 you've got a reference to.
+
+<!--more-->
 
 {% include image.html url="/images/2017-08-21-phpstorm-go-to-implementation/go-to-implementation-filesystem.php.png" description="Go to Implementation - Filesystem.php" %}
 
