@@ -69,7 +69,13 @@ filter {
 {% include image.html url="/images/2017-10-13-dlq-kibana/logs-list.png" description="Dead Letter Queue - Logs" %}
 {% include image.html url="/images/2017-10-13-dlq-kibana/logs-detail.png" description="Dead Letter Queue - Detail" %}
 
+### Next steps
+I'd love to rewrite this as a codec that could be applied to the input,
+but that's currently not possible as the `dead_letter_queue` input plugin
+[doesn't make any calls to the codec specified in it's config][codec-issue].
+
 [intouch]:      https://www.intouchinsight.com
 [dlq]:          https://www.elastic.co/guide/en/logstash/current/dead-letter-queues.html
 [dlq-blog]:     https://www.elastic.co/blog/logstash-lines-2017-05-16
 [reprocessing]: https://www.elastic.co/guide/en/logstash/5.6/dead-letter-queues.html#dlq-example
+[codec-issue]:  https://github.com/logstash-plugins/logstash-input-dead_letter_queue/issues/15
