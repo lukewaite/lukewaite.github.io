@@ -6,7 +6,7 @@ categories: logstash monitoring kibana dead-letter-queue
 ---
 
 At [Intouch Insight][intouch] our logging infrastructure is our holy
-grail. The engineering team that relies on it every day, so we need to keep
+grail. The engineering team relies on it every day, so we need to keep
 it up to snuff. I was lucky enough to be able to update our ELK cluster
 this week to 5.6 - a huge upgrade from our previous stack running ES 2.3
 and Kibana 4.
