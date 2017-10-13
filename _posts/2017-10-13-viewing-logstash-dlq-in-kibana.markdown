@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Viewing the Logstash Dead Letter Queue in Kibana"
-date:   2017-08-21 22:00:00
+date:   2017-10-13 09:00:00
 categories: logstash monitoring kibana dead-letter-queue
 ---
 
@@ -66,8 +66,8 @@ filter {
 {% endhighlight %}
 
 ### How it looks
-{% include image.html url="/images/2017-10-12-dlq-kibana/logs-list.png" description="Dead Letter Queue - Logs" %}
-{% include image.html url="/images/2017-10-12-dlq-kibana/logs-detail.png" description="Dead Letter Queue - Detail" %}
+{% include image.html url="/images/2017-10-13-dlq-kibana/logs-list.png" description="Dead Letter Queue - Logs" %}
+{% include image.html url="/images/2017-10-13-dlq-kibana/logs-detail.png" description="Dead Letter Queue - Detail" %}
 
 [intouch]:      https://www.intouchinsight.com
 [dlq]:          https://www.elastic.co/guide/en/logstash/current/dead-letter-queues.html
