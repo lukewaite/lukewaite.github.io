@@ -43,6 +43,10 @@ writing and discovered there might be a wider audience for.
 * [GitHub](https://github.com/laravel-notification-channels/pagerduty/)
 * [Packagist](https://packagist.org/packages/laravel-notification-channels/pagerduty)
 
+### Alfred GitLab Workflow
+[![GitHub release](https://img.shields.io/github/release/lukewaite/alfred-gitlab.svg?style=flat-square)](https://www.github.com/lukewaite/alfred-gitlab)
+
+
 [ico-logstash-input-cwl-version]: https://img.shields.io/gem/v/logstash-input-cloudwatch_logs.svg?style=flat-square
 [ico-logstash-input-cwl-downloads]: https://img.shields.io/gem/dt/logstash-input-cloudwatch_logs.svg?style=flat-square
 [ico-logstash-input-cwl-license]: https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=flat-square
