@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 ---
 
-I have had the pleasure of open sourcing four pacakges which I found myself
+I have had the pleasure of open sourcing five projects which I found myself
 writing and discovered there might be a wider audience for.
 
 ### Logstash Input for CloudWatch Logs
