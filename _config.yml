@@ -69,3 +69,5 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+
+permalink: /posts/:year/:month/:day/:title.html
