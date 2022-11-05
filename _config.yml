@@ -72,4 +72,4 @@ exclude:
   - vendor/ruby/
 
 permalink: /posts/:year/:month/:day/:title.html
-google_analytics: 341044624
+google_analytics: G-S16LH70M0X
